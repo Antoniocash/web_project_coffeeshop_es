@@ -1,6 +1,7 @@
 @import url("normalize.css");
 @import url("header.css");
 @import url("reservations.css");
+@import url("footer.css");
 
 body {
   min-width: 1100px;
@@ -9,44 +10,4 @@ body {
   font-family: "Inter", "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.25;
-}
-
-.footer {
-  padding: 60px 80px 60px 80px;
-  background-color: #d35722;
-}
-
-.contact {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 108px;
-}
-
-.socialmedia__title {
-  color: #ffff;
-  font-family: “Inter”, "Arial", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
-}
-
-.socialmedia__link {
-  color: #ffff;
-  text-decoration: none;
-  font-family: “Inter”, "Arial", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;
-}
-
-.trademark {
-  margin-bottom: 60px;
-  color: #ffff;
-  font-family: “Inter”, "Arial", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;
 }

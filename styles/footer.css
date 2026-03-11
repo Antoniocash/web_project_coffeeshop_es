@@ -1,0 +1,42 @@
+.footer {
+  padding: 60px 80px 60px 80px;
+  background-color: #d35722;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 108px;
+}
+
+.socialmedia__title {
+  color: #ffff;
+  font-family: “Inter”, "Arial", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.socialmedia__link {
+  color: #ffff;
+  text-decoration: none;
+  font-family: “Inter”, "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.copyright {
+  margin-bottom: 60px;
+}
+
+.copyright__text {
+  color: #ffff;
+  font-family: “Inter”, "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
