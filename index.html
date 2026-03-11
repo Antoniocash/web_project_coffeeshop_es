@@ -57,6 +57,7 @@
           <fieldset class="reservation__form-fieldset">
             <label class="form__fieldset-label" for="name">Nombre *</label>
             <input
+              required
               id="name"
               class="form__fieldset-input"
               type="text"
@@ -66,6 +67,7 @@
               >Número de comensales *</label
             >
             <input
+              required
               id="guests"
               class="form__fieldset-input"
               type="number"
@@ -77,6 +79,7 @@
               >Fecha y hora *</label
             >
             <input
+              required
               id="date"
               class="form__fieldset-input"
               type="datetime-local"
@@ -85,6 +88,7 @@
               >Tu correo electrónico *</label
             >
             <input
+              required
               id="email"
               class="form__fieldset-input"
               type="email"
@@ -97,26 +101,40 @@
               <label class="fieldset__terms-label" for="terms"
                 >Acepto los términos de uso</label
               >
-              <input class="fieldset__terms-input" id="terms" type="checkbox" />
+              <input
+                required
+                class="fieldset__terms-input"
+                id="terms"
+                type="checkbox"
+              />
             </div>
           </fieldset>
         </form>
       </section>
     </main>
     <footer class="footer">
+      <div class="footer__circle"></div>
       <div class="contact">
-        <img src="images/logo_coffeeshop_dark.svg" alt="Logo" />
+        <img
+          class="footer__logo"
+          src="images/logo_coffeeshop_light.svg"
+          alt="Logo"
+        />
         <ul class="socialmedia">
           <p class="socialmedia__title">Redes Sociales</p>
-          <li>
-            <img src="" alt="" /><a href="" class="socialmedia__link"
-              >Facebook</a
-            >
+          <li class="socialmedia_listitem">
+            <img
+              class="socialmedia__icon"
+              src="images/facebook_white.svg"
+              alt=""
+            /><a href="" class="socialmedia__link">Facebook</a>
           </li>
-          <li>
-            <img src="" alt="" /><a href="" class="socialmedia__link"
-              >Instagram</a
-            >
+          <li class="socialmedia_listitem">
+            <img
+              class="socialmedia__icon"
+              src="images/instagram_white.svg"
+              alt=""
+            /><a href="" class="socialmedia__link">Instagram</a>
           </li>
         </ul>
       </div>

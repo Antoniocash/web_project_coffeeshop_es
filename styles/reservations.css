@@ -21,9 +21,6 @@
   line-height: 52px;
 }
 
-.reservation__form {
-}
-
 .reservation__form-fieldset {
   border-style: none;
   display: flex;
@@ -54,8 +51,13 @@
   height: 30px;
 }
 
+.form__fieldset-input::placeholder {
+  color: #838383;
+}
+
 .form__fieldset-button {
   margin-bottom: 32px;
+  border-radius: 4px;
   height: 60px;
   color: #ffff;
   background-color: #e96e3a;
@@ -65,6 +67,10 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+}
+
+.form__fieldset-button:hover {
+  opacity: 0.7;
 }
 
 .form__fieldset-terms {
@@ -86,6 +92,9 @@
   height: 20px;
   width: 20px;
   border-radius: 2px;
-  accent-color: #e96e3a;
-  border-color: #4f4f4f;
+}
+
+.fieldset__terms-input:checked {
+  background-color: #e96e3a;
+  background-image: url("../images/check.svg");
 }

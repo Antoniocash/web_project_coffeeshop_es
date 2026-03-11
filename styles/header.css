@@ -35,6 +35,10 @@ li {
   line-height: 20px;
 }
 
+.nav__link:hover {
+  color: #ff976b;
+}
+
 .logo {
   position: relative;
   left: -50px;
